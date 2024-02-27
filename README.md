@@ -20,3 +20,4 @@ GitHub Copilot explained the issue:
 ```
 pca_weights_df = pd.DataFrame(np.transpose(pca.components_), columns=["PCA1", "PCA2", "PCA3"], index=scaled_data.columns)
 ```
+I also added a backup plot for Crypto Clusters in case the hvplot does not render. 
